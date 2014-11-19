@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex4_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Ex4_1.res" /d "_DEBUG" /d "_AFXDLL" "D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\Ex4_1.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex4_1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\Ex4_1.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\MainFrm.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\Ex4_1Doc.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\Ex4_1View.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\PasswordDialog.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Ex4_1.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\Ex4_1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ex4_1.pdb" /debug /machine:I386 /out:"Debug/Ex4_1.exe" /pdbtype:sept 
+".\Debug\Ex4_1.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Ex4_1Doc.obj"
+".\Debug\Ex4_1View.obj"
+".\Debug\Ex4_1.res"
+".\Debug\PasswordDialog.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Ex4_1.cpp
+MainFrm.cpp
+Ex4_1Doc.cpp
+Ex4_1View.cpp
+PasswordDialog.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ex4_1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
